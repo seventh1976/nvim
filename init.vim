@@ -31,6 +31,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jparise/vim-graphql'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'prettier/vim-prettier', {'do': 'yarn install'}
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
