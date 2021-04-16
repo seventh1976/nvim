@@ -30,8 +30,13 @@ Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jparise/vim-graphql'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 
 call plug#end()
+
+" Prettier config Autoformat on save
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 " CoC extensions
 let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-json', 'coc-jedi', 'coc-solargraph']
